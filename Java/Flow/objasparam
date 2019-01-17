@@ -1,0 +1,16 @@
+class Test
+{
+	int a,b;
+	Test(int a, int b)
+	{
+		this.a = a;
+		this.b = b;
+	}
+}
+class objasparam
+{
+	public static void main(String args[])
+	{
+		Test t1 = new Test(2,5);
+	}
+}
